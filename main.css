@@ -1,3 +1,40 @@
 body {
-    background-color: blanchedalmond;
+    background-color: black;
+}
+.title {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+#placesDiv {
+    display: flex;
+    flex-wrap: wrap;
+    height:auto;
+    max-width: 960px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.card {
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.card-img-top{
+    max-height: 160px;
+}
+
+.card-title {
+    text-align: center;
+    margin: 2px;
+    font-family: 'Lobster', cursive;
+}
+
+.bold {
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+
+.card-body {
+    text-align: center;
 }

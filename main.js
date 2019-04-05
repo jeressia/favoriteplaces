@@ -1,1 +1,58 @@
-console.log('Testing');
+// XHL - XhlHttpRequest
+let places = [];
+
+const printToDom = (divId, textToPrint) => {
+    const selectDiv= document.getElementById(divId);
+    selectDiv.innerHTML =textToPrint;
+}
+
+const domStringBuilder = (arrayToPrint) => {
+    let domString = '';
+    arrayToPrint.forEach((place) => {
+        domString += `<div class="card" style="width: 18rem;">`
+        domString += `<h5 class="card-title">${place.cityName},${place.countryName}</h5>`
+        domString += `<img src="${place.cityImage}" class="card-img-top" alt="...">`
+        domString += `<div class="card-body">`
+        // domString += `<p class="card-text">Hi</p>`
+        // domString += `</div>`
+        domString += `<ul class="list-group list-group-flush">`
+        domString += `<li class="list-group-item"><p class="bold">Favorite Restaurant:</p> ${place.favoriteRestaurant}</li>`
+        domString += `<li class="list-group-item"><p class="bold">Most Famous For:</p>  ${place.mostFamousFor}</li>`
+        domString += `<li class="list-group-item"><p class="bold">Favorite Hotel:</p>  ${place.favoriteHotel}</li>`
+        domString += `<li class="list-group-item"><p class="bold">Favorite Tourist Attraction:</p>  ${place.favoriteTouristAttraction}</li>`
+        domString += `</ul>`
+        domString += `</div>`
+        domString += `</div>`
+        
+    });
+    printToDom('placesDiv',domString);
+}
+
+//Once request is made, if it works, this makes the data do something
+function executeThisCodeAfterFileLoads (){
+    const data = JSON.parse(this.responseText);
+    domStringBuilder(data.places);
+    places= data.places;
+    domStringBuilder(places);
+}
+
+//If XHR Request does not work, console text will be red
+function executeThisCodeIfXHRFails (){
+    console.error('oh shit');
+}
+
+//Requests the data
+const getPlacesData = () => {
+    const myRequest = new XMLHttpRequest();
+    myRequest.addEventListener('load',executeThisCodeAfterFileLoads);
+    myRequest.addEventListener('error', executeThisCodeIfXHRFails);
+    myRequest.open('GET','./db/places.json');
+    myRequest.send();
+    console.log(myRequest);
+};
+
+const init = () => {
+ getPlacesData();
+};
+
+init();
