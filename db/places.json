@@ -2,6 +2,7 @@
     "places":[
         {
             "id": "place1",
+            "tripType": "Domestic",
             "cityName" : "Nashville, TN",
             "countryName" : "USA",
             "cityImage" : "https://www.choicehotels.com/cms/images/choice-hotels/citys/414666-Nashville/414666-Nashville.jpg",
@@ -12,6 +13,7 @@
         },
         {
             "id": "place2",
+            "tripType": "Domestic",
             "cityName" : "Las Vegas, NV",
             "countryName" : "USA",
             "cityImage" : "http://s1.1zoom.me/big0/59/USA_Houses_Las_Vegas_481685.jpg",
@@ -22,6 +24,7 @@
         },
         {
             "id": "place3",
+
             "cityName" : "Abu Dhabi",
             "countryName" : "UAE",
             "cityImage" : "https://farm8.staticflickr.com/7292/8912953755_c81f1f533b_b.jpg",
@@ -42,6 +45,7 @@
         },
         {
             "id": "place5",
+            "tripType": "Domestic",
             "cityName" : "Memphis, TN",
             "countryName" : "USA",
             "cityImage" : "https://www.tripsavvy.com/thmb/5cRp2F2FjqjVgRRktsOWtvyXWSo=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-103922561-5891683f5f9b5874ee051f4e.jpg",
@@ -72,6 +76,7 @@
         },
         {
             "id": "place8",
+            "tripType": "Domestic",
             "cityName" : "Philadelphia, PA",
             "countryName" : "USA",
             "cityImage" : "https://news.temple.edu/sites/news/files/styles/article_hero/public/20130118_night_skyline_006_938x528_0.jpg?itok=W79_0ij6&c=ec04b0b386a8865d81daa22bcadb37d0",
@@ -82,6 +87,7 @@
         },
         {
             "id": "place9",
+            "tripType": "Domestic",
             "cityName" : "Toronto, Ontario",
             "countryName" : "Canada",
             "cityImage" : "https://media.timeout.com/images/105239190/image.jpg",
@@ -92,6 +98,7 @@
         },
         {
             "id": "place10",
+            "tripType": "Domestic",
             "cityName" : "New York City, NY",
             "countryName" : "USA",
             "cityImage" : "https://cdn7.gosur.com/wp-content/uploads/2018/05/Times-Square-1078x516.jpg",
