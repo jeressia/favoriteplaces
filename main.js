@@ -10,7 +10,7 @@ const domStringBuilder = (arrayToPrint) => {
     let domString = '';
     arrayToPrint.forEach((place) => {
         domString += `<div class="card" style="width: 18rem;">`
-        domString += `<h5 class="card-title">${place.cityName},${place.countryName}</h5>`
+        domString += `<h5 class="card-title">${place.cityName}, ${place.countryName}</h5>`
         domString += `<img src="${place.cityImage}" class="card-img-top" alt="...">`
         domString += `<div class="card-body">`
         // domString += `<p class="card-text">Hi</p>`
@@ -21,6 +21,7 @@ const domStringBuilder = (arrayToPrint) => {
         domString += `<li class="list-group-item"><p class="bold">Favorite Hotel:</p>  ${place.favoriteHotel}</li>`
         domString += `<li class="list-group-item"><p class="bold">Favorite Tourist Attraction:</p>  ${place.favoriteTouristAttraction}</li>`
         domString += `</ul>`
+        domString += `<div class="card-footer" id="${place.tripType}">${place.tripType}</div>`
         domString += `</div>`
         domString += `</div>`
         
@@ -51,8 +52,32 @@ const getPlacesData = () => {
     console.log(myRequest);
 };
 
+const buttonClick = (e) => {
+    const buttonId = e.target.id;
+      
+      const selectedPlaces = [];
+      places.forEach((place) => {
+        if (place.tripType === buttonId) {
+          selectedPlaces.push(place);
+        }    
+      });
+  
+      if (buttonId === 'All'){
+        domStringBuilder(places);  
+      } else{
+        domStringBuilder(selectedPlaces);
+      }
+  };
+
+const buttonEvents = () => {
+    document.getElementById('Domestic').addEventListener('click',buttonClick);
+    document.getElementById('International').addEventListener('click',buttonClick);
+    document.getElementById('All').addEventListener('click',buttonClick);
+}
+
 const init = () => {
  getPlacesData();
+ buttonEvents();
 };
 
 init();
