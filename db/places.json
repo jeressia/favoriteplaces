@@ -1,0 +1,105 @@
+{
+    "places":[
+        {
+            "id": "place1",
+            "cityName" : "Nashville, TN",
+            "countryName" : "USA",
+            "cityImage" : "https://www.choicehotels.com/cms/images/choice-hotels/citys/414666-Nashville/414666-Nashville.jpg",
+            "favoriteRestaurant" : "Hattie B's Hot Chicken",
+            "mostFamousFor" : "Country Music",
+            "favoriteHotel" : "JW Marriott",
+            "favoriteTouristAttraction" : "Axe Throwing"
+        },
+        {
+            "id": "place2",
+            "cityName" : "Las Vegas, NV",
+            "countryName" : "USA",
+            "cityImage" : "http://s1.1zoom.me/big0/59/USA_Houses_Las_Vegas_481685.jpg",
+            "favoriteRestaurant" : "Eiffel Tower Restaurant",
+            "mostFamousFor" : "Gambling",
+            "favoriteHotel" : "JW Marriott",
+            "favoriteTouristAttraction" : "Axe Throwing"
+        },
+        {
+            "id": "place3",
+            "cityName" : "Abu Dhabi",
+            "countryName" : "UAE",
+            "cityImage" : "https://farm8.staticflickr.com/7292/8912953755_c81f1f533b_b.jpg",
+            "favoriteRestaurant" : "Hakkasan",
+            "mostFamousFor" : "Architecture",
+            "favoriteHotel" : "Burj Al Arab Jumeirah",
+            "favoriteTouristAttraction" : "Camelback Riding"
+        },
+        {
+            "id": "place4",
+            "cityName" : "Havana",
+            "countryName" : "Cuba",
+            "cityImage" : "https://whynotcuba.com/wp-content/uploads/2019/01/Havana.jpg",
+            "favoriteRestaurant" : "Otramanera",
+            "mostFamousFor" : "History",
+            "favoriteHotel" : "Cayo Coco",
+            "favoriteTouristAttraction" : "Visit Old Havana"
+        },
+        {
+            "id": "place5",
+            "cityName" : "Memphis, TN",
+            "countryName" : "USA",
+            "cityImage" : "https://www.tripsavvy.com/thmb/5cRp2F2FjqjVgRRktsOWtvyXWSo=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-103922561-5891683f5f9b5874ee051f4e.jpg",
+            "favoriteRestaurant" : "Abbey's",
+            "mostFamousFor" : "BBQ",
+            "favoriteHotel" : "Hilton",
+            "favoriteTouristAttraction" : "Civil Rights Museum"
+        },
+        {
+            "id": "place6",
+            "cityName" : "Cancún",
+            "countryName" : "México",
+            "cityImage" : "https://img1.akspic.com/image/8253-landscape_lighting-resort_town-resort-accommodation-estate-1920x1080.jpg?attachment=1",
+            "favoriteRestaurant" : "Caminero Tacos Cancún",
+            "mostFamousFor" : "Parties",
+            "favoriteHotel" : "Grand Fiesta",
+            "favoriteTouristAttraction" : "Parasailing"
+        },
+        {
+            "id": "place7",
+            "cityName" : "Nairobi",
+            "countryName" : "Kenya",
+            "cityImage" : "https://progrss.com/wp-content/uploads/2017/01/Nairobi-Skyline-at-Night.jpg",
+            "favoriteRestaurant" : "TroutTree Restaurant",
+            "mostFamousFor" : "Safari",
+            "favoriteHotel" : "Mombasa Hotel",
+            "favoriteTouristAttraction" : "Waterfalls"
+        },
+        {
+            "id": "place8",
+            "cityName" : "Philadelphia, PA",
+            "countryName" : "USA",
+            "cityImage" : "https://news.temple.edu/sites/news/files/styles/article_hero/public/20130118_night_skyline_006_938x528_0.jpg?itok=W79_0ij6&c=ec04b0b386a8865d81daa22bcadb37d0",
+            "favoriteRestaurant" : "Pat's King of Steaks",
+            "mostFamousFor" : "Philly Cheesesteak",
+            "favoriteHotel" : "Ritz Carlton",
+            "favoriteTouristAttraction" : "City Tour"
+        },
+        {
+            "id": "place9",
+            "cityName" : "Toronto, Ontario",
+            "countryName" : "Canada",
+            "cityImage" : "https://media.timeout.com/images/105239190/image.jpg",
+            "favoriteRestaurant" : "Antler Kitchen and Bar",
+            "mostFamousFor" : "Drake",
+            "favoriteHotel" : "Sheraton Centre",
+            "favoriteTouristAttraction" : "Caribana"
+        },
+        {
+            "id": "place10",
+            "cityName" : "New York City, NY",
+            "countryName" : "USA",
+            "cityImage" : "https://cdn7.gosur.com/wp-content/uploads/2018/05/Times-Square-1078x516.jpg",
+            "favoriteRestaurant" : "The Grill",
+            "mostFamousFor" : "Times Square",
+            "favoriteHotel" : "The Mark",
+            "favoriteTouristAttraction" : "Broadway"
+        }
+        
+    ]
+}
