@@ -19,12 +19,12 @@
             "cityImage" : "http://s1.1zoom.me/big0/59/USA_Houses_Las_Vegas_481685.jpg",
             "favoriteRestaurant" : "Eiffel Tower Restaurant",
             "mostFamousFor" : "Gambling",
-            "favoriteHotel" : "JW Marriott",
+            "favoriteHotel" : "Cosmopolitan",
             "favoriteTouristAttraction" : "Axe Throwing"
         },
         {
             "id": "place3",
-
+            "tripType": "International",
             "cityName" : "Abu Dhabi",
             "countryName" : "UAE",
             "cityImage" : "https://farm8.staticflickr.com/7292/8912953755_c81f1f533b_b.jpg",
@@ -35,6 +35,7 @@
         },
         {
             "id": "place4",
+            "tripType": "International",
             "cityName" : "Havana",
             "countryName" : "Cuba",
             "cityImage" : "https://whynotcuba.com/wp-content/uploads/2019/01/Havana.jpg",
@@ -56,6 +57,7 @@
         },
         {
             "id": "place6",
+            "tripType": "International",
             "cityName" : "Cancún",
             "countryName" : "México",
             "cityImage" : "https://img1.akspic.com/image/8253-landscape_lighting-resort_town-resort-accommodation-estate-1920x1080.jpg?attachment=1",
@@ -66,10 +68,11 @@
         },
         {
             "id": "place7",
+            "tripType": "International",
             "cityName" : "Nairobi",
             "countryName" : "Kenya",
             "cityImage" : "https://progrss.com/wp-content/uploads/2017/01/Nairobi-Skyline-at-Night.jpg",
-            "favoriteRestaurant" : "TroutTree Restaurant",
+            "favoriteRestaurant" : "Trout Tree Restaurant",
             "mostFamousFor" : "Safari",
             "favoriteHotel" : "Mombasa Hotel",
             "favoriteTouristAttraction" : "Waterfalls"
