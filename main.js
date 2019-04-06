@@ -13,13 +13,11 @@ const domStringBuilder = (arrayToPrint) => {
         domString += `<h5 class="card-title">${place.cityName}, ${place.countryName}</h5>`
         domString += `<img src="${place.cityImage}" class="card-img-top" alt="...">`
         domString += `<div class="card-body">`
-        // domString += `<p class="card-text">Hi</p>`
-        // domString += `</div>`
         domString += `<ul class="list-group list-group-flush">`
-        domString += `<li class="list-group-item"><p class="bold">Favorite Restaurant:</p> ${place.favoriteRestaurant}</li>`
-        domString += `<li class="list-group-item"><p class="bold">Most Famous For:</p>  ${place.mostFamousFor}</li>`
-        domString += `<li class="list-group-item"><p class="bold">Favorite Hotel:</p>  ${place.favoriteHotel}</li>`
-        domString += `<li class="list-group-item"><p class="bold">Favorite Tourist Attraction:</p>  ${place.favoriteTouristAttraction}</li>`
+        domString += `<li class="list-group-item"><p class="bold"><i class="fas fa-utensils"></i><br>Favorite Restaurant:</p> ${place.favoriteRestaurant}</li>`
+        domString += `<li class="list-group-item"><p class="bold"><i class="far fa-grin-stars"></i><br>Most Famous For:</p>  ${place.mostFamousFor}</li>`
+        domString += `<li class="list-group-item"><p class="bold"><i class="fas fa-concierge-bell"></i><br>Favorite Hotel:</p>  ${place.favoriteHotel}</li>`
+        domString += `<li class="list-group-item"><p class="bold"><i class="fas fa-binoculars"></i><br>Favorite Tourist Attraction:</p>  ${place.favoriteTouristAttraction}</li>`
         domString += `</ul>`
         domString += `<div class="card-footer" id="${place.tripType}">${place.tripType}</div>`
         domString += `</div>`

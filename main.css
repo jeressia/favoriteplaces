@@ -1,5 +1,7 @@
 body {
     background-color: #9f9f9f;
+    background-image: url('./img/bg.png');
+    background-repeat: repeat;
 }
 .title {
     color: #fff;
@@ -69,7 +71,11 @@ background-color: #56beff;
     max-height: 160px;
 }
 
-
+li.list-group-item {
+    border-bottom: 3px double royalblue;
+    margin: 0px;
+    padding: 0px;
+}
 
 .card-title {
     text-align: center;
@@ -93,10 +99,22 @@ background-color: #56beff;
     background-color: #326d92;
 }
 
+#Domestic:hover {
+    background-color: #b9daee;
+}
+
 #International {
     background-color:#56beff;
 }
 
+#International:hover {
+    background-color:#e3f2fc;
+}
+
 #All {
     background-color:#d2e8f5;
+}
+
+#All:hover {
+    background-color:#71a3c0;
 }
